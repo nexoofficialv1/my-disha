@@ -1,0 +1,35 @@
+# Node / Expo
+node_modules/
+frontend/node_modules/
+.expo/
+frontend/.expo/
+frontend/dist/
+frontend/android/
+frontend/ios/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+*.env
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Build artifacts
+*.apk
+*.aab
+.gradle/
+android/.gradle/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
